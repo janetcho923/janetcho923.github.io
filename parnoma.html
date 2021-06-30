@@ -2,11 +2,15 @@
   <head>
     <title>Test for aframe</title>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet_test.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700 rel="stylesheet">
     <style> 
     #myEmbeddedScene { width:50%; height:50%; margin:auto; } 
     </style>    
   </head>
 <body>
+  <div id="container">
   <div id="myEmbeddedScene">   
     <a-scene embedded>
       <a-sky src="beach.jpg" rotation="0  0" onClick ="myFunction()"></a-sky>
@@ -41,6 +45,6 @@ to-do list
 06/30 study aframe
 -phone accessible, computer accessible
 </p>
-
+</div>
 </body>
 </html>
