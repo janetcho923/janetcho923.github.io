@@ -1,13 +1,17 @@
 <html>
   <head>
-    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script> 
+    <style> 
+    #myEmbeddedScene { width:50%; height:50%; margin:auto; } 
+    </style>    
   </head>
 <body>
-  <div id="wrapper" >
-    <a-scene embedded style="height:50%;width:50%">
-      <a-sky src="paranoma_1.jpg" rotation="0  0" style="height:600px;width:600px"></a-sky>
+  <div id="myEmbeddedScene">   
+    <a-scene embedded>
+      <a-sky src="paranoma_1.jpg" rotation="0  0"></a-sky>
     </a-scene>
-</div>
+  </div>
   <br>
+
 </body>
 </html>
